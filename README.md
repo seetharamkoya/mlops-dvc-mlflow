@@ -14,14 +14,14 @@ DVC to track the dataset version.
 9. dvc pull (To pull latest Dataset version)
 
 
-### Dependencies (DVC)
+### Dependencies
 1. dvc install
 2. Storage (AWS, AZURE, GCP, local storage)
 3. aws configure
 4. dvc_s3
 
 ## STEP:2
-# Mlflow (Experiment Tracking)
+# Experiment Tracking (MLflow)
 Experiment tracking is the process of recoding of all machine learning trainings/runs. So that you can compare different models, reproduce or choose the best model accuracy.
 
 ### Experiment Tracking System stores
