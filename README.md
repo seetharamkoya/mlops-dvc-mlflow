@@ -1,5 +1,5 @@
-# Dvc (Data versioning)
-Demo project to track the dataset tracking using dvc.
+# Data Version Control (DVC)
+DVC to track the dataset version.
 
 ## Python venv & dvc instllation & dataset versioning
 1. python -m venv .venv
@@ -21,4 +21,16 @@ Demo project to track the dataset tracking using dvc.
 
 
 # Mlflow (Experiment Tracking)
+Experiment tracking is the process of recoding of all machine learning trainings/runs. So that you can compare different models, reproduce or choose the best model accuracy.
+
+### Experiment Tracking System stores
+1. Parameters
+2. Code Version
+3. Dataset version
+4. Metrics
+5. Artifacts
+6. System info
+
+MLflow is an open-source MLOps framework used to manage the end-to-end machine learning lifecycle.
+It helps you track experiments, manage models, and make ML work reproducible.
 
