@@ -1,7 +1,7 @@
-# dvc (Data versioning)
+# Dvc (Data versioning)
 Demo project to track the dataset tracking using dvc.
 
-## python venv & dvc instllation & dataset versioning
+## Python venv & dvc instllation & dataset versioning
 1. python -m venv .venv
 2. source .venv/Scripts/activate
 3. python -m pip install dvc
@@ -20,5 +20,5 @@ Demo project to track the dataset tracking using dvc.
 4. dvc_s3
 
 
-# mlflow (Experiment Tracking)
+# Mlflow (Experiment Tracking)
 
