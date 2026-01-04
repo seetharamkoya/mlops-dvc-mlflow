@@ -1,5 +1,5 @@
 # mlops-dvc-mlflow
-Demo project to track the dataset and experiment tracking
+Demo project to track the dataset tracking using dvc.
 
 ## python venv & dvc instllation & dataset tracking
 1. python -m venv .venv
@@ -17,9 +17,3 @@ Demo project to track the dataset and experiment tracking
 2. Cloud storage (AWS, AZURE, GCP)
 3. aws configure
 4. dvc_s3
-
-
-## Expected errors
-1. dvc push
-ERROR: unexpected error - s3 is supported, but requires 'dvc-s3' to be installed
-: No module named 'dvc_s3'
