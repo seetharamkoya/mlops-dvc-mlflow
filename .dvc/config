@@ -1,4 +1,4 @@
 [core]
-    remote = irisremote
-['remote "irisremote"']
-    url = s3://mlops-dvc-demo-koya/dvc-demo
+    remote = mlops-demo
+['remote "mlops-demo"']
+    url = s3://mlops-demo-dvc-ksr
