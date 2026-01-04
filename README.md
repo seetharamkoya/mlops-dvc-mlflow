@@ -1,7 +1,8 @@
 # Data Version Control (DVC)
 DVC to track the dataset version.
 
-## Python venv & dvc instllation & dataset versioning
+## STEP:1
+### Python venv & dvc instllation & dataset versioning
 1. python -m venv .venv
 2. source .venv/Scripts/activate
 3. python -m pip install dvc
@@ -13,13 +14,13 @@ DVC to track the dataset version.
 9. dvc pull (To pull latest Dataset version)
 
 
-## Dependencies
+### Dependencies (DVC)
 1. dvc install
 2. Storage (AWS, AZURE, GCP, local storage)
 3. aws configure
 4. dvc_s3
 
-
+## STEP:2
 # Mlflow (Experiment Tracking)
 Experiment tracking is the process of recoding of all machine learning trainings/runs. So that you can compare different models, reproduce or choose the best model accuracy.
 
