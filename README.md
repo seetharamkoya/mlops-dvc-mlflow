@@ -22,7 +22,7 @@ DVC to track the dataset version.
 
 ## STEP:2
 # Experiment Tracking (MLflow)
-Experiment tracking is the process of recoding of all machine learning trainings/runs. So that you can compare different models, reproduce or choose the best model accuracy.
+Experiment tracking is the process of recoding of all machine learning trainings/runs. So that you can compare different model runs, reproduce or choose the best model accuracy.
 
 ### Experiment Tracking System stores
 1. Parameters
@@ -35,3 +35,9 @@ Experiment tracking is the process of recoding of all machine learning trainings
 MLflow is an open-source MLOps framework used to manage the end-to-end machine learning lifecycle.
 It helps you track experiments, manage models, and make ML work reproducible.
 
+## Installation
+Basic mlflow instllation to test on local windows machine using python. 
+[Basic Installation] (https://mlflow.org/docs/2.4.2/quickstart.html#install-mlflow)
+1. python -m pip install mlflow
+2. python -m mlflow ui --backend-store-uri sqlite:///mlflow.db --port 5001
+ (Setup mlflow UI and DB stores tracking Data)
