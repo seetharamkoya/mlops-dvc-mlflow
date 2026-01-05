@@ -37,7 +37,9 @@ It helps you track experiments, manage models, and make ML work reproducible.
 
 ## Installation
 Basic mlflow instllation to test on local windows machine using python. 
-[Basic Installation] (https://mlflow.org/docs/2.4.2/quickstart.html#install-mlflow)
+
+[Basic Installation](https://mlflow.org/docs/2.4.2/quickstart.html#install-mlflow)
+
 1. python -m pip install mlflow
 2. python -m mlflow ui --backend-store-uri sqlite:///mlflow.db --port 5001
  (Setup mlflow UI and DB stores tracking Data)
